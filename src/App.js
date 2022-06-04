@@ -4,6 +4,7 @@ import Header from './Components/Header/Header.js';
 import Footer from "./Components/Footer/Footer";
 import Intro from "./Components/Introduction/Intro";
 import Projects from "./Components/Projects/Projects";
+import Achievements from "./Components/Achievements/Achievements";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
             <Header className="App-header"/>
             <Intro />
             <Projects />
-            {/*<Achievements />*/}
+            <Achievements />
             {/*<Contacts />*/}
             <Footer />
         </div>
