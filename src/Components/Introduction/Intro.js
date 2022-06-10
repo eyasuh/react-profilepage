@@ -3,7 +3,7 @@ import './Intro.css';
 function Intro() {
     return (
         <>
-        <main>
+        <main className='intro'>
             <section>
                 <article>
                     <h4>WELLCOME TO MY PAGE, MY NAME IS</h4>

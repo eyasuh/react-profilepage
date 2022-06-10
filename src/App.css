@@ -9,45 +9,40 @@
   color: aliceblue;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 4fr 1fr;
-  grid-template-areas:
-        "header header"
-        "main data"
-        "footer footer";
-
+  grid-template-rows: 1fr repeat(4 1fr) 1fr;
+  grid-template-areas: 
+    "header header"
+    "intro intro"
+    "projects projects"
+    "achievements achievements"
+    "contacts contacts"
+    "footer footer";
+  gap: 10px; 
+}
+.App > * {
+  border: 2px outset white; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  grid-area: header;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro {
+  grid-area: intro;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.projects {
+  grid-area: projects;
 }
 
-.App-link {
-  color: #61dafb;
+.achievements {
+  grid-area: achievements;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contacts {
+  grid-area: contacts;
+}
+
+.footer {
+  grid-area: footer;
 }

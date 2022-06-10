@@ -4,7 +4,7 @@ import Achievement from '../Achievement/Achievement.js';
 function Achievements() {
     return (
         <>
-            <section>
+            <section className='achievements'>
                 <Achievement/>
                 <Achievement/>
             </section>

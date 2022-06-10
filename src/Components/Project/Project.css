@@ -1,3 +1,8 @@
 h1 {
     color: chocolate;
 }
+
+.project {
+    height: 10px;
+    width: 10px;
+}

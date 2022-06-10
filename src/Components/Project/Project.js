@@ -2,9 +2,9 @@ import './Project.css';
 
 function Project() {
     return (
-        <>
-        <h1 className='project' >Project Name</h1>
-        </>
+        <section className='project'>
+            <h1 className='project-h' >Project Name</h1>
+        </section>
     );
 }
 export default Project;

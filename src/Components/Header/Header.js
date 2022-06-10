@@ -2,7 +2,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <header>
+        <header className='app-header'>
             <nav role="navigation">
                 <ul className="navbar">
                     <li><a href="#">Home</a></li>
@@ -13,6 +13,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
+            <hr /> 
         </header>
     );
 }

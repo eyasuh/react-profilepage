@@ -1,15 +1,22 @@
 import './Projects.css';
 import Project from "../Project/Project";
-import {Fragment} from "react";
+import { Fragment } from "react";
 
 function Projects() {
     return (
         < >
-            <section className='Project'>
-                <Project className='project-list'/>
-                <Project className='project-list'/>
-                <Project className='project-list'/>
-                <Project className='project-list'/>
+            <section className='projects'>
+                <h4 className='projects-header'>Projects Highlight :-:</h4>
+                <section>
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                    <Project className='project-list' />
+                </section>
             </section>
         </>
     );
