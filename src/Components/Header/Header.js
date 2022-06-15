@@ -1,8 +1,12 @@
 import './Header.css';
+import logo from './logo.png';
 
 function Header() {
     return (
         <header className='app-header'>
+            <a href='#home'>
+                <img className='logo' src={logo} alt='svg logo' />
+            </a>
             <nav role="navigation">
                 <ul className="navbar">
                     <li><a href="#">Home</a></li>
@@ -13,7 +17,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <hr /> 
+            {/* <hr /> */}
         </header>
     );
 }

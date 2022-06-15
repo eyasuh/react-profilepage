@@ -1,3 +1,18 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% auto;
+    column-gap: 5%;
+}
+
 .resume-link {
     color: aqua;
+}
+
+.profilePic {
+    border-radius: 50%;
+    background: linear-gradient(135deg, #161C1A, #2C3836);
+    width: 500px;
+    height: 500px;
 }

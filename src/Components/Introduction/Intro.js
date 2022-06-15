@@ -1,4 +1,5 @@
 import './Intro.css';
+import ProfilePic from './profileportraite.png';
 
 function Intro() {
     return (
@@ -12,6 +13,7 @@ function Intro() {
                     <a className='resume-link' href="#">CHECK OUT MY RESUME</a>
                 </article>
             </section>
+            <img className='profilePic' src={ProfilePic} alt='hero' /> 
         </main>
         </>
     )

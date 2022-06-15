@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  background-image: url("../public/pexels-pixabay-355938.jpg");
+  /* background-image: url("../public/pexels-pixabay-355938.jpg");
   background-repeat: no-repeat;
+   linear-gradient(135deg, rgb(123, 190, 245) 10%, rgb(201, 230, 171))
+   */
+
+  background: linear-gradient( #000000, #BA7960, #9DA497);
   background-position: center;
   height: 100%;
   background-size: cover;
@@ -9,7 +13,7 @@
   color: aliceblue;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr repeat(4 1fr) 1fr;
+  grid-template-rows: 1fr repeat(4, 3fr) 1fr;
   grid-template-areas: 
     "header header"
     "intro intro"
@@ -20,10 +24,10 @@
   gap: 10px; 
 }
 .App > * {
-  border: 2px outset white; 
+  /* border: 2px outset white;  */
 }
 
-.header {
+.app-header {
   grid-area: header;
 }
 
