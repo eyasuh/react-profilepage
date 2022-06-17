@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px solid ;
+    border-bottom: 3px solid #021E14;
 }
 
 .logo {
@@ -25,4 +25,5 @@
     /* border: 1em solid; */
     color: #9DA497;
     font-size: 1.5rem;
+    text-decoration: none;
 }
