@@ -1,0 +1,29 @@
+.contactMe-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: currentcolor none 0px;
+    border: 0px none;
+    margin-right: 16px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 8px 22px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(194, 24, 91);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 15px;
+}
+.contactMe-link:hover {
+    background-color: rgb(136, 14, 79);
+    box-shadow: rgba(0, 0, 0, 0.176) 0px 10px 40px 10px;
+}

@@ -1,18 +1,29 @@
-.intro {
+.intro-container {
+    grid-column: 1/3;
+    /*span 2 columns*/
+    background-color: rgb(26, 33, 56);
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro-button-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0% auto;
-    column-gap: 5%;
+
 }
 
-.resume-link {
-    color: aqua;
-}
+
+
+
 
 .profilePic {
-    border-radius: 50%;
-    background: linear-gradient(135deg, #161C1A, #2C3836);
-    width: 500px;
-    height: 500px;
+    display: flex;
+    border-radius: 0%;
+    /* background: linear-gradient(135deg, #161C1A, #2C3836); */
+    width: 400px;
+    height: 400px;
 }

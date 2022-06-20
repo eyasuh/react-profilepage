@@ -5,7 +5,8 @@
    linear-gradient(135deg, rgb(123, 190, 245) 10%, rgb(201, 230, 171))
    */
 
-  background: linear-gradient( #000000, #BA7960, #9DA497);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  background-color: rgb(34, 43, 69);
   background-position: center;
   height: 100%;
   background-size: cover;

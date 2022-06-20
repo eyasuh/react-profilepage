@@ -1,20 +1,28 @@
 import './Intro.css';
 import ProfilePic from './profileportraite.png';
+import patern from './patern.svg';
+import ContainedButton from '../ContainedButton/ContainedButton';
+import OutlinedButton from '../OutlinedButton/OutlinedButton';
 
 function Intro() {
     return (
         <>
-        <main className='intro'>
-            <section>
-                <article>
-                    <h4>WELLCOME TO MY PAGE, MY NAME IS</h4>
-                    <h1>Eyasu Haile</h1>
-                    <p>I am a full-stack developer</p>
-                    <a className='resume-link' href="#">CHECK OUT MY RESUME</a>
-                </article>
-            </section>
-            <img className='profilePic' src={ProfilePic} alt='hero' /> 
-        </main>
+            <main className='intro-container'>
+                <section className='intro-content'>
+                    <article>
+                        <h4>HELLO,
+                            <br /> MY NAME IS
+                            <h1>Eyasu Haile</h1></h4>
+
+                        <p>I am a full-stack developer</p>
+                        <div className='intro-button-container'>
+                            <ContainedButton buttonName='Contact Me' /> 
+                            <OutlinedButton buttonName='Check out my resume' /> 
+                        </div>
+                    </article>
+                    <img className='profilePic' src={patern} alt='hero' />
+                </section>
+            </main>
         </>
     )
 }
