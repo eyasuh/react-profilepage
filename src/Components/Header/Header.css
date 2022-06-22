@@ -23,7 +23,7 @@
 .navbar li  a{
     padding: 1em;
     /* border: 1em solid; */
-    color: #9DA497;
+    color: rgb(238, 238, 239);
     font-size: 1.5rem;
     text-decoration: none;
 }

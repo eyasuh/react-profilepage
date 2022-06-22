@@ -1,10 +1,12 @@
 import './Projects.css';
 import Project from "../Project/Project";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
 function Projects() {
+    // const [projects, setProjects] = useState([]);
+    // const [project, setProject] = useState('');
     return (
-        < >
+        <>
             <section className='projects'>
                 <h4 className='projects-header'>Projects Highlight :-:</h4>
                 <section>
@@ -18,11 +20,7 @@ function Projects() {
                     <Project className='project-list' />
                     <Project className='project-list' />
                     <Project className='project-list' />
-                    <Project className='project-list' />
-                    <Project className='project-list' />
-                    <Project className='project-list' />
-                    <Project className='project-list' />
-                    <Project className='project-list' />
+                  
                 </section>
             </section>
         </>

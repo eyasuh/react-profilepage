@@ -10,6 +10,22 @@
     align-items: center;
 }
 
+.intro-content article h2{
+    color: rgb(238, 238, 239);
+    font-size: 3rem;
+}
+
+.intro-content article span {
+    color: rgb(194, 24, 91);
+}
+
+.intro-content article p {
+    font-size: 1.5rem;
+    color: rgb(174, 176, 180);
+    font-weight: 500;
+}
+
+
 .intro-button-container {
     display: flex;
     justify-content: space-between;
@@ -20,7 +36,7 @@
 
 
 
-.profilePic {
+.svgPatern {
     display: flex;
     border-radius: 0%;
     /* background: linear-gradient(135deg, #161C1A, #2C3836); */
