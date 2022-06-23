@@ -1,19 +1,19 @@
 .projects {
     /* position: relative; */
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
+    flex-flow: column wrap;
+    gap: 2em;
+    /* justify-content: space-around; */
 }
 
 .projects-header {
-    display: flex;
-    margin-left: 50px;
+    /* display: flex; */
+    /* margin-left: 50px; */
 }
 .projects section {
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
-    gap: 10px;
     flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2em;
 }

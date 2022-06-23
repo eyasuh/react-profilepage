@@ -1,6 +1,7 @@
 import './Header.css';
 import logo from './logo.svg';
 import resume from '../utilities/Resume-2.pdf'; 
+import ContainedButton from '../ContainedButton/ContainedButton';
 
 function Header() {
 
@@ -11,13 +12,14 @@ function Header() {
             </a>
             <nav role="navigation">
                 <ul className="navbar">
-                    <li><a href="#footer">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="#aboutme-article">About Me</a></li>
+                    <li><a href="#project" >Projects</a></li>
                     <li><a href={resume}>Resume</a></li>
-                    <li><a href="https://github.com/eyasuh" target="blanck">GitHub <i
+                    <li><a href="https://github.com/eyasuh" target="blank">GitHub <i
                         className="fa-brands fa-github-square"></i>
                     </a>
                     </li>
+                    <ContainedButton href='#footer' buttonName='Contact Me'/> 
                 </ul>
             </nav>
             {/* <hr /> */}

@@ -2,6 +2,8 @@
     grid-column: 1/3;
     /*span 2 columns*/
     background-color: rgb(26, 33, 56);
+    display: flex;
+    flex-direction: column;
 }
 
 .intro-content {
@@ -10,7 +12,7 @@
     align-items: center;
 }
 
-.intro-content article h2{
+.intro-content article h2, .intro-about-me h2{
     color: rgb(238, 238, 239);
     font-size: 3rem;
 }
@@ -19,7 +21,7 @@
     color: rgb(194, 24, 91);
 }
 
-.intro-content article p {
+.intro-content article p , .intro-paragraph{
     font-size: 1.5rem;
     color: rgb(174, 176, 180);
     font-weight: 500;
@@ -32,9 +34,9 @@
 
 }
 
-
-
-
+.paragraph-container {
+    margin: auto 130px;
+}
 
 .svgPatern {
     display: flex;

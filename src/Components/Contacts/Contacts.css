@@ -1,3 +1,22 @@
-.contact {
+.contacts {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: rgb(238, 238, 239);
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(236, 229, 229, 0.919);
+    transition: 0.3s; 
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
 }

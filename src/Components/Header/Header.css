@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-around;
     margin: 2em;
-    gap: 5em;
+    gap: 2em;
 }
 
 .navbar li  a{

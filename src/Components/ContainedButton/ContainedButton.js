@@ -5,7 +5,7 @@ function ContainedButton(props) {
     const [emoji, setEmoji] = useState();
     return (
         <a className='contactMe-link' 
-        href='./' 
+        href={props.href} 
         onMouseOver={() => setEmoji(props.emojis)}
         onMouseLeave={() => setEmoji('')}
         >
