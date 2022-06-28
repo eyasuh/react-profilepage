@@ -31,3 +31,19 @@
 .navbar li a:hover {
     color: rgb(83, 114, 47);
 }
+
+
+
+@media (min-width: 801px){
+    #humberger-menu {
+        display: none;
+
+    }
+}
+
+@media (max-width: 800px) {
+    #navbar-list {
+        display: none;
+        margin-right: 40px;
+    }
+}
